@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Ejercicio en casa</title>
+        <link>https://www.vanitatis.elconfidencial.com/vida-saludable/2026-03-25/ejercicio-cardio-recomendado-50-anos-entrenadores-1qrt_4324125/</link>
+        <description>Para hacer ejercicios en casa</description>
+        <language>Español</language>
+        <copyright>Vanitatis</copyright>
+        <category>Libros de texto</category>
+        <item>
+            <title>Informacion de todos los ejercicios</title>
+            <link>https://www.realfitness.cl/admin/imagenes/descargas/Enciclopedia%20de%20ejercicios%20de%20musculacion.pdf</link>
+            <description>informacion de los ejercicios en general</description>
+            <pubDate>Tue, 05 Jan 2021, 10:00:00 +0100</pubDate>
+            <copyright>Real Fitness</copyright>
+        </item>
+        <item>
+            <title>Suplementos</title>
+            <link>https://www.hsnstore.com/?srsltid=AfmBOoolSf_nnopddQXYfMi6Vw-Dt0r9t1D0VuZohP9bBe0FHmztGV2K</link>
+            <description>Suplementos para el deporte</description>
+            <pubDate>Tue, 05 Jan 2021, 10:00:00 +0100</pubDate>
+            <copyright>HSNstore</copyright>
+        </item>
+    </channel>
+</rss>

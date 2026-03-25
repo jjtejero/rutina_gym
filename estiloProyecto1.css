@@ -1,0 +1,126 @@
+#tabla1{
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(252, 215, 123);
+    text-decoration:underline;
+}
+
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:rgb(160, 111, 95);
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;                         
+    align-items: center; 
+    
+    text-align: center;
+    text-decoration: underline;
+    
+    position: sticky;
+    top: 0; 
+    
+    width: fit-content;      
+    padding: 5px 5%;        
+    margin: 5px auto;         
+    font-size: 0.9rem;
+
+    border-radius: 4%;
+    border: 5px dashed #ddbf7d;
+}
+
+h1::first-letter{
+    color: rgb(240, 198, 135);
+    text-transform: uppercase;
+}
+
+nav:visited{
+    color: rgb(240, 198, 135);
+}
+
+li{
+    margin-top: 2%;
+    margin: auto;
+}
+
+body{
+    background-color: cadetblue;
+    margin: auto;
+    font-size: 20px;
+}
+footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: justify;
+
+    position: sticky;
+    bottom: 0px;
+    margin: 10px;
+    border-radius: 10px;
+    border: rgb(240, 198, 135), 5px, dashed;
+
+    margin: auto;
+}
+
+footer:hover{
+    color: rgba(240, 198, 135);
+}
+
+#textoFinal{
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedor-dia {
+    padding: 20px;
+}
+
+.fila-flex {
+    display:grid;
+    flex-direction:column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+
+.columna-informacion {
+    flex: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0%;
+}
+
+
+.columna-visual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.columna-visual img {
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #04665e;
+    border-radius: 5%;
+}
+
+.columna-visual img:hover{
+    border-color: rgba(240, 198, 135);
+    padding: 2%;
+}
+
+@media (max-width: 768px) {
+    .fila-flex {
+        flex-direction: column;
+    }
+}
+
